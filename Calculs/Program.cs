@@ -31,6 +31,8 @@ namespace Calculs
 
                 // Correction incident n°2 :
                 // Vérification de la saisie du choix
+                val1 = rand.Next(1, 10);
+                val2 = rand.Next(1, 10);
                 if (!int.TryParse(Console.ReadLine(), out choix))
                 {
                     Console.WriteLine("erreur de saisie");
@@ -43,8 +45,8 @@ namespace Calculs
                     if (choix == 1)
                     {
                         // Choix de l'addition
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
+                        //val1 = rand.Next(1, 10);
+                        //val2 = rand.Next(1, 10);
 
                         // Correction incident n°3 :
                         // Répéter jusqu'à une saisie entière valide
@@ -80,8 +82,8 @@ namespace Calculs
                     else if (choix == 2)
                     {
                         // Choix de la multiplication
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
+                        //val1 = rand.Next(1, 10);
+                        //val2 = rand.Next(1, 10);
 
                         // Correction incident n°3 :
                         // Répéter jusqu'à une saisie entière valide
