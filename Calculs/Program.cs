@@ -82,8 +82,8 @@ namespace Calculs
                     else if (choix == 2)
                     {
                         // Choix de la multiplication
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
+                        //val1 = rand.Next(1, 10);
+                        //val2 = rand.Next(1, 10);
 
                         // Correction incident n°3 :
                         // Répéter jusqu'à une saisie entière valide
